@@ -1,6 +1,11 @@
+const connection = require('./mongoDb');
+
 const cors = require("cors");
 const express = require("express");
 const app = express();
+
+//Calling the connection function
+connection();
 
 app.use(express.json());
 app.use(cors())
