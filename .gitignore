@@ -1,2 +1,8 @@
 /server/node_modules
 /server/package-lock.json
+
+/TodoMern/src/node_modules
+
+/TodoMern/src/.env
+
+/TodoMern/src/package-lock.json
