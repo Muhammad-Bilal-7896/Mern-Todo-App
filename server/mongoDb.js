@@ -8,7 +8,7 @@ module.exports = async () => {
             useUnifiedTopology:true
         };
         await moongose.connect(
-            "mongodb://localhost/todo-app",
+            "mongodb://localhost/Mern-Todo-App",
             connectionParams
         );
         console.log("Connected to Mongo Db database");

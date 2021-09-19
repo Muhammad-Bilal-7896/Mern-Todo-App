@@ -3,14 +3,15 @@
 ### This project Consists of 
 - React
 - Mongo Db
+- Axios
 - Express JS
 - Node JS
 - TypeScript
 - Mdbootstrap 
-- Firebase 
+- Firebase authentication
 - Firestore
-- Firebase Real Time Database
-- Material-UI-SAAS
+- Material-UI
+- SAAS(SCSS)
 
 To start using firebase go to `https://console.firebase.google.com/u/0/`
 
