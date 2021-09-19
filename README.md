@@ -1,7 +1,10 @@
-# Getting Started with React-TypeScript-Mdbootstrap-Firebase-Material-UI-SAAS-Starter
+# Getting Started with Mern Todo App
 
 ### This project Consists of 
 - React
+- Mongo Db
+- Express JS
+- Node JS
 - TypeScript
 - Mdbootstrap 
 - Firebase 
@@ -18,13 +21,25 @@ Its upto you.You can add an .env in the root of your project directory also
 # Available Scripts
 
 ## Installation
-In the project directory, you can run the command
+Go to project directory->server and then run the command
+
+### `npm install` or `yarn`
+
+The server node modules are installed in this way.
+
+Now Again Go To
+
+project_root->TodoMern and then open cmd and run
 
 ### `npm install` or `yarn`
 
 # Starting the project
 
-In the project directory, you can run the command:
+Now Again Go To
+
+project_root->TodoMern and then open cmd and run
+
+Now keeping in same directory run 
 
 ### `npm start` or `yarn start`
 
