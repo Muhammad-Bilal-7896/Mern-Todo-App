@@ -1,4 +1,5 @@
 import NavBar from "../NavBar";
+import Tasks from "../Tasks";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
           <div className="col-md-12">
             <h1 className="text-primary">Mern Stack Todo App</h1>
             <hr />
-            
+            <Tasks />
           </div>
         </div>
       </div>
