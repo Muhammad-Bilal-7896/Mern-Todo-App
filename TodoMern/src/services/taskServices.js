@@ -1,8 +1,12 @@
-import axios from 'axios';
+import axios from "axios";
 const apiUrl = "http://localhost:8080/tasks";
 
 export function getTasks(){
     return axios.get(apiUrl);
+}
+
+export const addTask = (task) => {
+    return axios.post(apiUrl,task);
 }
 
 export function updateTask(id,task){
