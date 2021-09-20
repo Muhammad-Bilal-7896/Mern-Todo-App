@@ -6,7 +6,6 @@
 - Axios
 - Express JS
 - Node JS
-- TypeScript
 - Mdbootstrap 
 - Firebase authentication
 - Firestore
