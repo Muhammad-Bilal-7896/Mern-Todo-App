@@ -51,7 +51,8 @@ const Tasks = () => {
             setTask(tasks);
             await updateTask(currentTask,{completed:tasks[index].completed})
         } catch (error) {
-            setTask(originalTasks)
+            setTask(originalTasks);
+            console.log(error);
         }
     }
 
@@ -59,12 +60,13 @@ const Tasks = () => {
         const originalTasks = task;
         try {
             const tasks = originalTasks.filter(
-                (task) => {
-
-                }
-            )
+                (task) => task._id !== currentTask
+            );
+            setTask(tasks);
+            await deleteTask(currentTask);
         } catch (error) {
-            
+            setTask(originalTasks);
+            console.log(error);
         }
     }
 
